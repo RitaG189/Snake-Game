@@ -51,6 +51,7 @@ public class GamePanel extends JPanel implements ActionListener {
 
     public void draw(Graphics g) {
 
+        // Show grid
         for(int i = 0; i < SCREEN_HEIGHT/UNIT_SIZE; i++) {
             g.drawLine(i*UNIT_SIZE, 0, i*UNIT_SIZE, SCREEN_HEIGHT);
             g.drawLine(0, i*UNIT_SIZE, SCREEN_WIDTH, i*UNIT_SIZE);
@@ -102,7 +103,7 @@ public class GamePanel extends JPanel implements ActionListener {
             case 'R':
                 x[0] = x[0] + UNIT_SIZE;
                 break;
-                
+
         }
     }
 
@@ -177,6 +178,7 @@ public class GamePanel extends JPanel implements ActionListener {
                     if(direction != 'L') {
                         direction = 'R';
                     }
+                    break;
 
                 case KeyEvent.VK_UP:
                     if(direction != 'D') {
