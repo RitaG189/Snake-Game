@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Snake-Game-Java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Snake_Game_Java_jar</output-path>
+    <root id="archive" name="Snake-Game-Java.jar">
+      <element id="module-output" name="Snake-Game-Java" />
+    </root>
+  </artifact>
+</component>
